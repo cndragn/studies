@@ -2,11 +2,11 @@ import os
 
 def rename_files():
     #(1) get file names from a folder
-    file_list = os.listdir(r"C:\Users\Candice\Documents\WebDev\udacity\python\test")
+    file_list = os.listdir(r"C:\Users\Candice\Documents\WebDev\udacity\python\tater")
     print(file_list)
     
     saved_path = os.getcwd() 
-    os.chdir(r"C:\Users\Candice\Documents\WebDev\udacity\python\test")
+    os.chdir(r"C:\Users\Candice\Documents\WebDev\udacity\python\tater")
     
     print("Current Working Directory is "+saved_path)
 
