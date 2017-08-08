@@ -6,10 +6,15 @@
      font-family: 'Saira Semi Condensed', Helvetica, Arial, sans-serif;
  }
 
-.navbar-inverse .navbar-brand {
-    font-size: 35px;
-    color: #c9c9c9;
-}
+ h2,
+ .h2 {
+     font-size: 25px;
+ }
+
+ .navbar-inverse .navbar-brand {
+     font-size: 35px;
+     color: #c9c9c9;
+ }
 
  .wrap {
      background-color: rgba(0, 0, 0, .9);
@@ -70,13 +75,23 @@
      -webkit-transform: scale(1.1);
      transform: scale(1.1);
  }
+
  img {
-    border: 2px solid #353333;
-}
-footer a {
+     border: 2px solid #353333;
+ }
+
+ footer a {
      color: #fff;
-}
-footer a.hover, footer a:hover {
+ }
+
+ footer a.hover,
+ footer a:hover {
      color: #c9c9c9;
      text-decoration: none;
+ }
+
+ @media (max-width: 768px) {
+     h2, .h2 {
+    font-size: 20px;
 }
+ }
