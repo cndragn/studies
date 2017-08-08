@@ -9,7 +9,7 @@ eraserhead = media.Movie("Eraserhead",
 #print(eraserhead.storyline)
 #eraserhead.show_trailer()
 
-rockyhorror = media.Movie("Rocky Horror Picture Show",
+rockyhorror = media.Movie("Rocky Horror",
                           "A stranded young couple is taken in by a mad scientst for the night",
                           "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Original_Rocky_Horror_Picture_Show_poster.jpg/220px-Original_Rocky_Horror_Picture_Show_poster.jpg",
                           "https://www.youtube.com/watch?v=_Ov8yLJkknY")
@@ -35,7 +35,7 @@ love = media.Movie("The One I Love",
                   "https://www.youtube.com/watch?v=jCOvhojlZzQ")
 
 movies = [eraserhead, rockyhorror, soundofmusic, amelie, vsevil, love]
-#fresh_tomatos.open_movies_page(movies)
+fresh_tomatos.open_movies_page(movies)
 #print(media.Movie.VALID_RATINGS)
 
 print(media.Movie.__doc__)

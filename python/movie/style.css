@@ -1,0 +1,66 @@
+ body {
+     padding-top: 80px;
+     background: url(images/moviebg.jpg) no-repeat center center fixed;
+     background-size: cover;
+     color: #c9c9c9;
+ }
+
+ .wrap {
+     background-color: rgba(0, 0, 0, .9);
+     padding: 10px 0;
+     margin-bottom: 25px;
+ }
+
+ #trailer .modal-dialog {
+     margin-top: 200px;
+     width: 640px;
+     height: 480px;
+ }
+
+ .hanging-close {
+     position: absolute;
+     top: -12px;
+     right: -12px;
+     z-index: 9001;
+ }
+
+ #trailer-video {
+     width: 100%;
+     height: 100%;
+ }
+
+ .movie-tile {
+     margin-bottom: 20px;
+     padding-top: 20px;
+ }
+
+ .movie-tile:hover {
+     cursor: pointer;
+ }
+
+ .scale-media {
+     padding-bottom: 56.25%;
+     position: relative;
+ }
+
+ .scale-media iframe {
+     border: none;
+     height: 100%;
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 0;
+     background-color: white;
+ }
+
+ .zoom figure img {
+     -webkit-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+ }
+
+ .zoom figure:hover img {
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
