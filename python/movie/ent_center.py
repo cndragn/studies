@@ -1,4 +1,4 @@
-import fresh_tomatos
+import index
 import media
 
 eraserhead = media.Movie("Eraserhead",
@@ -35,7 +35,7 @@ love = media.Movie("The One I Love",
                   "https://www.youtube.com/watch?v=jCOvhojlZzQ")
 
 movies = [eraserhead, rockyhorror, soundofmusic, amelie, vsevil, love]
-fresh_tomatos.open_movies_page(movies)
+index.open_movies_page(movies)
 #print(media.Movie.VALID_RATINGS)
 
 print(media.Movie.__doc__)
