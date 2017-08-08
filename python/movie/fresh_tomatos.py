@@ -75,6 +75,12 @@ main_page_content = '''
     </div>
     <div class="container wrap zoom">
       {movie_tiles}
+      <footer class="text-center">
+        <p>Developed by <a href="http://www.CandiceDavidson.com">Candice Davidson</a></p>
+        <p>Background image by <a href="http://www.8backgrounds.com">8backgrounds.com</a><br>
+        Movie posters by <a href="https://www.wikipedia.org/">Wikipedia.org</a><br>
+        Movie trailers by <a href="https://www.youtube.com/">YouTube.com</a></p>
+      </footer>
     </div>
   </body>
 </html>
