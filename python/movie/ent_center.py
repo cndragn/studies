@@ -9,7 +9,7 @@ eraserhead = media.Movie("Eraserhead",
 #print(eraserhead.storyline)
 #eraserhead.show_trailer()
 
-rockyhorror = media.Movie("Rocky Horror",
+rockyhorror = media.Movie("Rocky Horror Picture Show",
                           "A stranded young couple is taken in by a mad scientst for the night",
                           "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Original_Rocky_Horror_Picture_Show_poster.jpg/220px-Original_Rocky_Horror_Picture_Show_poster.jpg",
                           "https://www.youtube.com/watch?v=_Ov8yLJkknY")

@@ -3,7 +3,13 @@
      background: url(images/moviebg.jpg) no-repeat center center fixed;
      background-size: cover;
      color: #c9c9c9;
+     font-family: 'Saira Semi Condensed', Helvetica, Arial, sans-serif;
  }
+
+.navbar-inverse .navbar-brand {
+    font-size: 35px;
+    color: #c9c9c9;
+}
 
  .wrap {
      background-color: rgba(0, 0, 0, .9);
