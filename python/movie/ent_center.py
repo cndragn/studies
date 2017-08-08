@@ -14,10 +14,10 @@ rockyhorror = media.Movie("Rocky Horror",
                           "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Original_Rocky_Horror_Picture_Show_poster.jpg/220px-Original_Rocky_Horror_Picture_Show_poster.jpg",
                           "https://www.youtube.com/watch?v=_Ov8yLJkknY")
 
-soundofmusic = media.Movie("The Sound of Music",
-                           "Based on the Von Trapp musical family who fled from Austria to escape Anshluss",
-                           "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Musical1959-SoundOfMusic-OriginalPoster.png/250px-Musical1959-SoundOfMusic-OriginalPoster.png",
-                           "https://www.youtube.com/watch?v=V15gAUm_114")
+soundofmusic = media.Movie("Pan's Labyrinth",
+                           "Dark fantasy film set in Spain after the Spanish Civil War",
+                           "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Pan%27s_Labyrinth.jpg/220px-Pan%27s_Labyrinth.jpg",
+                           "https://www.youtube.com/watch?v=EqYiSlkvRuw")
 
 amelie = media.Movie("Amelie",
                      "A young waitress decides to do good deeds to change the lives of those around her for the better",
